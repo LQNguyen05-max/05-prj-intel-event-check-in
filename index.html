@@ -36,7 +36,7 @@
     </div>
     <div class="container">
       <!-- Feedback message -->
-      <p id="greeting"></p>
+      <p id="greeting">Welcome!</p>
 
       <!-- Check-in form -->
       <form class="check-in" id="checkInForm">
@@ -51,6 +51,7 @@
               required
             />
             <select id="teamSelect" name="team" required>
+              <label for="teamSelect" class="sr-only"></label>
               <option value="" disabled selected>Select Team...</option>
               <option value="water">Team Water Wise</option>
               <option value="zero">Team Net Zero</option>
@@ -62,6 +63,11 @@
           </button>
         </div>
       </form>
+
+      <div class="attendee-list">
+        <h2>Attendee List</h2>
+        <ul id="attendeeList"></ul>
+      </div>
 
       <!-- Team stats -->
       <div class="team-stats">

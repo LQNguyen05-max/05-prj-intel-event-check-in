@@ -1,3 +1,8 @@
+#checkInBtn {
+  min-width: 125px;
+  padding: 0;
+}
+
 /* Modern reset */
 * {
   margin: 0;
@@ -230,6 +235,13 @@ button .fas {
   background-image: linear-gradient(90deg, #0071c5, #00aeef);
   border-radius: 10px;
   transition: width 0.6s ease;
+}
+
+#progressBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
 }
 
 /* Adjust spacing between components */
